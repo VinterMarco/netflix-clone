@@ -1,0 +1,69 @@
+<div class="wrapper">
+  <div class="container">
+    <a routerLink="/login"><img class="netflix-logo" src="../../assets/photos/logo.png" alt="netflix logo"></a>
+    <div class="wrapper-sing-up-box">
+      <div class="sign-up-box">
+        <h1>Sing In</h1>
+        <form [formGroup]="loginForm" (ngSubmit)="OnSubmit()">
+          <div class="container-inputs-sign-up">
+            <input placeholder="Email or phone number" type="text" formControlName="email">
+            <input placeholder="Password" type="password" formControlName="password">
+            <button type="submit">Sign In</button>
+          </div>
+          <div class="wrapper_under_sign_in_btn">
+            <div>
+              <input id="remember_me" type="checkbox" >
+              <label for="remember_me">Remember me</label>
+            </div>
+            <a href="#">Need help?</a>
+          </div>
+        </form>
+        <div class="bottom-sign-up">
+          <div class="bottom-sign-up-top">
+            <p>New to Netflix? </p>
+            <a  routerLink="/login" href="#"> Sign up now</a>
+          </div>
+          <div class="bottom-sign-up-bottom">
+             <p>This page is protected by Google reCAPTCHA to ensure you're not a bot.<a href="#">Learn more.</a>f </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+<!--    <footer>-->
+<!--      <div class="container_footer">-->
+<!--        <div class="question-and-number">-->
+<!--          <div class="question">Question? Call</div>-->
+<!--          <div class="number">0800-672-120</div>-->
+<!--        </div>-->
+<!--        <div class="action_buttons">-->
+<!--          <div><a href="">FAQ</a></div>-->
+<!--          <div><a href="">Help Center</a></div>-->
+<!--          <div><a href="">Term of Use</a></div>-->
+<!--          <div><a href="">Privacy</a></div>-->
+<!--        </div>-->
+<!--        <div class="action_buttons_bottom">-->
+<!--          <div><a class="cookie" href="">Cookie Preferences</a></div>-->
+<!--          <div><a class="corporate" href="">Corporate information</a></div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </footer>-->
+
+    <div class="question-and-number">
+      <div class="question">Question? Call</div>
+      <div class="number">0800-672-120</div>
+    </div>
+
+    <div class="flex-container">
+      <div class="flex-item"><a href="">FAQ</a></div>
+      <div class="flex-item"><a href="">Help Center</a></div>
+      <div class="flex-item"><a href="">Terms of Use</a></div>
+      <div class="flex-item"><a href="">Privacy</a></div>
+      <div class="flex-item"><a href="">Cookie Preferences</a></div>
+      <div class="flex-item"><a href="">Corporate Information</a></div>
+    </div>
+  </div>
+
+
+</div>
+

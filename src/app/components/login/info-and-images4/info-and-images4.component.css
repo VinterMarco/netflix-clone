@@ -1,0 +1,20 @@
+.wrapper {
+  font-family: sans-serif;
+  padding: 150px 180px 150px 140px;
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 5px solid rgba(255,255, 255, 0.38);
+}
+
+.top-text {
+  color: white;
+  font-size: 26px;
+}
+
+
+img {
+  height: 55vh;
+  width: 40vw;
+}

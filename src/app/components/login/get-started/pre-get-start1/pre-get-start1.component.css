@@ -1,0 +1,43 @@
+.wrapper {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+main {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+img {
+  width: 410px;
+  height: 130px;
+}
+
+
+.red-btn {
+  cursor: pointer;
+  color: white;
+  border: none;
+  background-color: rgb(229,8,21);
+  width: 300px;
+  height: 66px;
+  font-size: 21px;
+}
+
+.red-btn:hover {
+  background-color: rgb(246,19,29);
+}
+

@@ -1,0 +1,278 @@
+.container {
+  font-family: sans-serif;
+  background: rgba(0,0,0,0.6);
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.wrapper {
+  color: white;
+  background-image: url('../../../assets/photos/netflix-image-bg-sing-uo.jpeg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  background-position: 60% 0;
+
+
+}
+
+.netflix-logo {
+  width: 208px;
+  height: 105px;
+  margin: 0 0 0 10px;
+}
+
+
+
+.wrapper-sing-up-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-box {
+  padding: 45px 60px;
+  width: 320px;
+  height: 520px;
+  margin-bottom: 80px;
+  background: rgba(0,0,0,0.74);
+  border-radius: 4px;
+}
+
+.container-inputs-sign-up {
+  height: 200px;
+  /*background-color: red;*/
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-inputs-sign-up input {
+  border-radius: 4px;
+  height: 48px;
+}
+
+.container-inputs-sign-up button {
+  margin-top: 22px;
+  border-radius: 4px;
+  background-color: red;
+  border: red;
+  color: white;
+  height: 48px;
+  font-weight: bold;
+}
+
+
+.container-inputs-sign-up button:hover {
+  background-color: orangered;
+  border: orangered;
+}
+
+.wrapper_under_sign_in_btn {
+  padding: 0;
+  margin-top: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+  color: grey;
+}
+
+.wrapper_under_sign_in_btn label {
+  position: relative;
+  bottom: 1px;
+}
+
+.wrapper_under_sign_in_btn label:hover {
+  color: darkgrey;
+}
+
+.wrapper_under_sign_in_btn input {
+  background-color: grey;
+}
+
+.wrapper_under_sign_in_btn a {
+  text-decoration: none;
+  color: grey;
+  align-self: flex-end;
+}
+
+.wrapper_under_sign_in_btn a:hover {
+  color: darkgrey;
+}
+
+
+footer {
+  /*background-color: red;*/
+  margin-top: 15px;
+  height: 23.4vh;
+  padding: 0 15% 0 10%;
+  background-color: rgba(0,0,0,0.77);
+}
+
+.container_footer {
+  margin: 0 10%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+
+.question-and-number {
+  display: flex;
+  gap: 10px;
+  position: relative;
+  top: 20px;
+  /*color: rgba(71,69,71,1);*/
+  color: rgba(255 , 255, 255, 0.4);
+  margin-bottom: 50px;
+}
+
+.action_buttons {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+
+.action_buttons_bottom {
+  display: flex;
+  position: relative;
+  margin-top: 15px;
+  gap: 9vw;
+
+}
+
+
+.action_buttons a {
+  text-decoration: none;
+  /*color: rgba(71,69,71,1)*/
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.action_buttons_bottom a {
+  /*color: rgba(71,69,71,1);*/
+  /*color: red;*/
+  color: rgba(255,255, 255, 0.4);
+  text-decoration: none;
+}
+
+
+.bottom-sign-up-top {
+  display: flex;
+  flex-direction: row;
+  margin-top: 44px;
+  color: grey;
+}
+
+.bottom-sign-up-top a {
+  position: relative;
+  font-size: 16px;
+  text-decoration: none;
+  top: 16px;
+  left: 6px;
+  color: white;
+}
+
+
+.bottom-sign-up-bottom {
+  color: grey;
+  font-size: 13px;
+}
+
+.bottom-sign-up-bottom a {
+  text-decoration: none;
+  color: dodgerblue;
+  margin-left: 4px;
+}
+
+
+
+
+.question-and-number {
+  color: grey;
+  display: flex;
+  padding: 0 10% ;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  gap: 5px;
+}
+
+
+/*test */
+
+.flex-container {
+  background: rgba(0,0,0, 0.77);
+  font-family: sans-serif;
+  font-size: 17px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0  10%  20px 10% ;
+}
+
+.flex-item {
+  flex-basis: calc(25% - 22px);
+  height: 30px;
+  margin: 5px;
+}
+
+.flex-item a {
+  text-decoration: none;
+  color: grey;
+}
+
+
+
+
+
+.question-and-number {
+  background: rgba(0,0,0, 0.77);
+  color: grey;
+  display: flex;
+  padding: 2% 10% ;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  gap: 5px;
+}
+
+
+/*test */
+
+.flex-container {
+  font-family: sans-serif;
+  font-size: 17px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0  10%  20px 10% ;
+}
+
+.flex-item {
+  flex-basis: calc(25% - 22px);
+  height: 30px;
+  margin: 5px;
+}
+
+.flex-item a {
+  text-decoration: none;
+  color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

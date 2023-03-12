@@ -1,0 +1,28 @@
+<div class="container">
+
+  <header>
+    <app-custom-header></app-custom-header>
+  </header>
+
+  <main>
+    <div class="wrapper">
+      <p class="steps">STEP <span>2</span> of <span>3</span></p>
+      <h1>Create a password to start <br> your membership</h1>
+      <p>Just one more step and you're done!</p>
+      <p>We hate paperwork, too</p>
+      <form [formGroup]="signUpForm" (ngSubmit)="OnSubmit()">
+        <div class="bottom-input-button">
+          <input class="email"  formControlName="email" type="text" placeholder="Enter address">
+          <input class="password"  formControlName="password" type="text" placeholder="Enter password">
+          <button routerLink="/sign-up-3-last" class="btn-red"   (click)="OnSubmit()" type="button"  class="btn-bottom">NEXT</button>
+        </div>
+      </form>
+    </div>
+  </main>
+
+
+  <footer>
+    <app-custom-footer></app-custom-footer>
+  </footer>
+
+</div>

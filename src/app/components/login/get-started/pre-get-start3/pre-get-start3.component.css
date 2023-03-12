@@ -1,0 +1,63 @@
+.wrapper {
+  display: flex;
+  height: 100vh;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.wrapper2 {
+  text-align: left;
+  font-family: sans-serif;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  text-align: left;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+
+.bottom-input-button {
+  display: flex;
+  height: 250px;
+  flex-direction: column;
+}
+
+
+.email, .password {
+  width: 420px;
+  margin-bottom: 5px;
+  height: 61px;
+}
+
+
+button{
+  background-color: rgb(229,8,21);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 10px;
+  height: 61px;
+  width: 300px;
+}
+
+
+button:hover {
+  background-color: rgb(246,19,29);
+}
+
+
+
+

@@ -1,0 +1,26 @@
+<div class="wrapper">
+  <div class="container">
+    <div class="nav">
+      <img src="assets/photos/logo.png" alt="">
+      <button routerLink="/sign-up">Sign In</button>
+    </div>
+   <div class="container-text-get-started">
+     <div class="text-get-started">
+       <h1>Unlimited movies, TV shows, and  more.</h1>
+       <p class="p1">Plans now start at EUR 4.99/month.
+       </p>
+       <p class="p2">Ready to watch? Enter your email to create or restart your membership.
+       </p>
+     </div>
+   </div>
+
+      <form [formGroup]="signUpForm" (ngSubmit)="OnSubmit()">
+        <div class="bottom-input-button">
+           <input formControlName="email" type="text" placeholder="Enter address">
+          <button (click)="OnSubmit()" type="button" routerLink="/sign-up-1" class="btn-bottom">Get Started ></button>
+        </div>
+      </form>
+
+
+  </div>
+</div>

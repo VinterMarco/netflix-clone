@@ -1,0 +1,98 @@
+.container{
+  font-family: sans-serif;
+  width: 100%;
+  height: 70vh;
+  background: rgba(0,0,0,0.7);
+  border-bottom: 8px  solid rgba(255, 255, 255, 0.1);
+}
+
+
+
+
+.wrapper {
+  background-image: url('src/assets/photos/netflix-image-bg-sing-uo.jpeg');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: 120px;
+  margin-left: 20px;
+}
+
+button {
+  margin-top: 20px;
+  margin-right: 40px;
+  padding: 0;
+  width: 80px ;
+  border-radius: 6px;
+  font-weight: bold;
+  height: 30px;
+  background-color: red;
+  color: white;
+  border: red;
+}
+
+.container-text-get-started {
+  display: flex;
+  margin-top: 60px;
+  align-content: center;
+  justify-content: center;
+}
+
+.text-get-started {
+  text-align: center;
+  width: 80%;
+  height: 70%;
+  color: white;
+}
+
+.text-get-started h1 {
+  font-size: 55px;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+.text-get-started .p1 {
+  font-size: 23px;
+  font-weight: normal;
+  letter-spacing: -1px;
+}
+
+.text-get-started .p2 {
+  font-size: 20px;
+  font-weight: normal;
+  left: -1px;
+}
+
+.bottom-input-button .btn-bottom {
+  margin-left: 20px;
+  position: relative;
+  width: 180px;
+  bottom: 11px;
+  font-size: 22px;
+  height: 60px;
+}
+
+.bottom-input-button input {
+  width: 300px;
+  height: 53px;
+  position: relative;
+  bottom: -10px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgb(43,183,112);
+  border-radius: 8px;
+  color: white;
+}
+
+.bottom-input-button {
+  display: flex;
+  justify-content: center;
+}

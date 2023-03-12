@@ -1,0 +1,87 @@
+
+footer {
+  font-family: sans-serif;
+  /*background-color: red;*/
+  margin-top: 15px;
+  height: 23.4vh;
+  padding: 0 15% 0 10%;
+  background-color:  rgb(243,243,243);
+}
+
+.container_footer {
+  margin: 0 10%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+
+.question-and-number {
+  display: flex;
+  gap: 10px;
+  position: relative;
+  top: 20px;
+  color: rgb(123,123,123);
+  margin-bottom: 50px;
+}
+
+.action_buttons {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+
+.action_buttons_bottom {
+  display: flex;
+  position: relative;
+  margin-top: 15px;
+  gap: 9vw;
+
+}
+
+
+.action_buttons a {
+  text-decoration: none;
+  color: rgb(123,123,123);
+}
+
+.action_buttons_bottom a {
+  /*color: rgba(71,69,71,1);*/
+  /*color: red;*/
+  color: rgb(123,123,123);
+  text-decoration: none;
+}
+
+
+.bottom-sign-up-top {
+  display: flex;
+  flex-direction: row;
+  margin-top: 44px;
+  color: grey;
+}
+
+.bottom-sign-up-top a {
+  position: relative;
+  font-size: 16px;
+  text-decoration: none;
+  top: 16px;
+  left: 6px;
+  color: white;
+}
+
+
+.bottom-sign-up-bottom {
+  color: grey;
+  font-size: 13px;
+}
+
+.bottom-sign-up-bottom a {
+  text-decoration: none;
+  color: dodgerblue;
+  margin-left: 4px;
+}
+
+
+
+
